@@ -5,3 +5,8 @@ var takeANumber = (katzDeliLine, name) => {
 }
 
 
+var nowServing = () => {
+
+  return kat(0)
+  
+}
