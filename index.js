@@ -27,13 +27,11 @@ var currentLine = deliLine => {
 
   } else {
 
-    var string = ''; var list = []; var i; var n;
-    var stringAdd = function() {
-      string = string + '${n}. ${deliLIne(e)}, '
-    }
+    var string = ''; var list = []; var i; var n; var newArray = [];
+  
     for (i = 0; i < deliLine.length; i++) {
       n = n + 1;
-      stringAdd()
+      newArray.push(`${n}. ${deliLine[i]}, `)
     }
 
   return `The line is currently: ${string}`
