@@ -30,8 +30,8 @@ var currentLine = deliLine => {
     var n; var newArray = []; var i;
 
     for (i = 0; i < deliLine.length; i++) {
-      n = n + 1;
-      newArray.push(`${n}. ${deliLine[i]}, `)
+
+      newArray.push(`${i + 1}. ${deliLine[i]}, `)
     }
 
   return `The line is currently: ${newArray}`
