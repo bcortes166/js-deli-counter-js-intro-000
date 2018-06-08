@@ -32,7 +32,7 @@ var currentLine = deliLine => {
     var n;
     for (i = 0; i < deliLine.length; i++) {
       n = n + 1;
-      string = '${n}. ${deliLine}, '
+      string = string + '${n}. ${deliLine}, '
     }
 
   return `The line is currently: ${string}`
