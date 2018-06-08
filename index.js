@@ -34,6 +34,6 @@ var currentLine = deliLine => {
       newArray.push(` ${i + 1}. ${deliLine[i]}`) 
     }
 
-  return `The line is currently: ${newArray}`
+  return `The line is currently:${newArray}`
 }
 }
