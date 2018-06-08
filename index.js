@@ -20,5 +20,5 @@ var nowServing = deliLine => {
   }
 
   var deliLIne = deliLine.shift()
-
+return deliLine
 }
