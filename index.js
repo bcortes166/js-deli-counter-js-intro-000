@@ -9,6 +9,6 @@ var takeANumber = (katzDeliLine, name) => {
 
 var nowServing = () => {
 
-  return katzDeliLine(0)
+  return katzDeliLine[0]
   katzDeliLine.shift()
 }
