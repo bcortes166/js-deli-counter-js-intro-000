@@ -29,7 +29,7 @@ var currentLine = deliLine => {
 
     var string = ''; var list = []; var i; var n;
     var stringAdd = function() {
-      string = string + '${n}. ${deliLIne(i)}, '
+      string = string + '${n}. ${deliLIne(e)}, '
     }
     for (i = 0; i < deliLine.length; i++) {
       n = n + 1;
