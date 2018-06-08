@@ -9,6 +9,10 @@ var takeANumber = (katzDeliLine, name) => {
 
 var nowServing = () => {
 
+  if katzDeliLine > 0 {
+    return 'There is nobody waiting to be served'
+  } else {
   return katzDeliLine[0]
   katzDeliLine.shift()
+  }
 }
