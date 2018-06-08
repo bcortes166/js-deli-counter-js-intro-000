@@ -35,5 +35,5 @@ var currentLine = deliLine => {
     }
 
   return `The line is currently: ${newArray}`
-}
+
 }
