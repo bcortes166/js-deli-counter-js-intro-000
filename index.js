@@ -8,7 +8,7 @@ var takeANumber = (katzDeliLine, name) => {
 
 
 var nowServing = deliLine => {
-var deliLine = katzDeliLine
+
   if (deliLine.length === 0) {
 
     return 'There is nobody waiting to be served!'
