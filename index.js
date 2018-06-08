@@ -26,7 +26,7 @@ var currentLine = deliLine => {
     return 'The line is currently empty.'
 
   } else {
-    var string;
+    var string = '';
     var list = [];
     var i;
     var n;
