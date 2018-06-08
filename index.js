@@ -26,13 +26,14 @@ var currentLine = deliLine => {
     return 'The line is currently empty.'
 
   } else {
-    var string = '';
-    var list = [];
-    var i;
-    var n;
+    
+    var string = ''; var list = []; var i; var n;
+    var stringAdd = function() {
+      string = string + '${n}. ${deliLine(i)},
+    } 
     for (i = 0; i < deliLine.length; i++) {
       n = n + 1;
-      string = string + '${n}. ${deliLine(i)}, '
+      
     }
 
   return `The line is currently: ${string}`
