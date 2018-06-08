@@ -7,7 +7,7 @@ var takeANumber = (katzDeliLine, name) => {
 }
 
 
-var nowServing = katzDeliLine => {
+var nowServing = deliLine => {
 var katzDeliLine = katzDeliLine
   if (katzDeliLine.length === 0) {
 
@@ -15,9 +15,9 @@ var katzDeliLine = katzDeliLine
 
   } else {
 
-    return `Currently serving ${katzDeliLine[0]}.`
+    return `Currently serving ${deliLine[0]}.`
 
-    katzDeliLine.shift()
+    katzDeliLine.deliLine()
 
   }
 }
