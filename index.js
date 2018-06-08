@@ -16,7 +16,7 @@ var nowServing = deliLine => {
   } else {
 
     return `Currently serving ${deliLine[0]}.`
-    var deliLIne = deliLine.shift()
+    deliLine.shift()
   }
 
 }
