@@ -26,8 +26,9 @@ var currentLine = deliLine => {
     return 'The line is currently empty.'
 
   } else {
-    var string
-    var list = []
+    var string;
+    var list = [];
+    var = i;
     for (i = 0; i < deliLine.length; i++) {
       n = n + 1;
       string = '${n}. ${deliLine}, '
