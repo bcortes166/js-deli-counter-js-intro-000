@@ -27,7 +27,7 @@ var currentLine = deliLine => {
 
   } else {
 
-    var n; var newArray = [];
+    var n; var newArray = []; var i;
 
     for (i = 0; i < deliLine.length; i++) {
       n = n + 1;
