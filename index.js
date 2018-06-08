@@ -17,7 +17,7 @@ var nowServing = deliLine => {
 
     return `Currently serving ${deliLine[0]}.`
 
-    katzDeliLine.deliLine()
+  deliLine.shift()
 
   }
 }
