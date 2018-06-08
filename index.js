@@ -28,7 +28,7 @@ var currentLine = deliLine => {
   } else {
     var string;
     var list = [];
-    var = i;
+    var i;
     for (i = 0; i < deliLine.length; i++) {
       n = n + 1;
       string = '${n}. ${deliLine}, '
